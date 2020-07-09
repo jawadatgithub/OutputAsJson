@@ -1,4 +1,5 @@
 # Tool Info
+```
 {
   "toolName": "Output As JSON",
   "binaryName": "oj",
@@ -7,6 +8,7 @@
   "version": "1.0.0",
   "license": "MIT"
 }
+```
 
 # Help
 ```
