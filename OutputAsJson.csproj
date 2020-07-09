@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>InSysOut</RootNamespace>
+    <AssemblyName>oj</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="ProductInfo.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="ProductInfo.json" />
+  </ItemGroup>
+
+
+</Project>
